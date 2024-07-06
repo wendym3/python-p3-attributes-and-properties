@@ -21,6 +21,7 @@ class Person:
         self._job = None
         self.name = name  
         self.job = job  
+        
     @property
     def name(self):
         return self._name

@@ -15,9 +15,9 @@ class Dog:
     def __init__(self, name="Dog", breed="Pug"):
         self._name = None
         self._breed = None
-        self.name = name  # This will use the setter method
-        self.breed = breed  # This will use the setter method
-
+        self.name = name  
+        self.breed = breed 
+        
     @property
     def name(self):
         return self._name
